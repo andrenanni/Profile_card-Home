@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    font-family: 'Outfit';
+    max-width: 2000px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
+}
+
+.box-center{
+    width: 360px;
+    height: 365px;
+    border-radius: 10pt;
+    background-color: white;
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.box-center:hover{
+    transform: scale(1.1);
+}
+
+.bg-card{
+    display: flex;
+    border-radius: 10pt 10pt 0 0pt;
+    margin-bottom: -50px;
+    width: 100%;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.photo{
+    border-radius: 50px;
+    width: 100px;
+    outline: 5px solid white;
+}
+
+.center-card{
+    text-align: center;
+    line-height: 25px;
+    margin: 25px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    gap: 5px
+}
+
+.number{
+    color: rgb(146, 146, 146);
+}
+
+.bottom-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    border-radius: 0pt 0pt 10pt 10pt;
+    border-top: 1px solid rgb(198, 198, 198);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.txt-bold{
+    font-weight: 700;
+}
+
+.txt-light{
+    color: rgb(171, 171, 171);
+    font-weight: 200;
+    font-size: 10pt;
+}
+
+.txt-brasil{
+    color: rgb(146, 146, 146);
+    font-weight: 200;
+    font-size: 12pt;
+}
+
+footer{
+    font-family: 'Outfit';
+    position: fixed;
+    bottom: 0;
+    background-color: #24dc89;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 8pt;
+    padding: 5px;
+}
+
+footer a{
+    color:#0085b5;
+}
